@@ -3,6 +3,11 @@ public class Cliente {
     private String cpf;
     private String email;
     private String telefone;
+    public static int qt;
+
+    public Cliente(){
+        qt++;
+    }
 
     public String getNome() {
         return nome;
